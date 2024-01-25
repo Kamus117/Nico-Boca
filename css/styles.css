@@ -1,0 +1,75 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colores */
+/* fuentes */
+/* Gradientes */
+body {
+  background: linear-gradient(173.1deg, rgba(226, 66, 249, 0.94) 10.2%, rgb(79, 147, 249) 77.3%) center no-repeat fixed;
+  background-size: cover;
+  min-height: 200vh;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 5px 15px;
+  background-color: #492E87;
+  box-shadow: rgba(255, 255, 255, 0.274) 0 10px 15px;
+}
+header img {
+  height: 100%;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  column-gap: 15px;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  text-shadow: rgba(0, 0, 0, 0.925) 0 0 10px;
+}
+header ul li a:hover {
+  text-shadow: #37B5B6 0 0 10px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.intro {
+  background: url(https://coolwallpapers.me/picsup/2980424-boca-boca-juniors___mixed-wallpapers.jpg) center no-repeat fixed;
+  background-size: cover;
+  height: 40vh;
+}
+.intro:hover {
+  height: 80vh;
+  transition: all 0.5s;
+}
+.intro h1 {
+  font-size: 7rem;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(0, 0, 0, 0.491);
+  text-shadow: #37B5B6 0 0 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+@use "variables";
+
+main{
+    margin-top: 80px;
+}
+.intro{
+    background: url(https://coolwallpapers.me/picsup/2980424-boca-boca-juniors___mixed-wallpapers.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 40vh;
+    &:hover{
+        height: 80vh;
+        transition:all 0.5s ;
+    }
+    h1{
+        font-size: 7rem;
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: variables.$titulos;
+        background-color: rgba(0, 0, 0, 0.491);
+        text-shadow: variables.$colorC 0 0 10px;
+
+    }
+}

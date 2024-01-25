@@ -1,0 +1,9 @@
+@use "variables";
+
+body{
+    background: variables.$gradienteA;
+    background-size: cover;
+    min-height: 200vh;
+    font-family: variables.$textos;
+    
+}

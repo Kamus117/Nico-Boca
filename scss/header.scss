@@ -1,0 +1,30 @@
+@use "variables";
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 5px 15px;
+    background-color: variables.$colorB;
+    box-shadow: rgba(255, 255, 255, 0.274) 0 10px 15px;
+    img{
+        height: 100%;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        column-gap: 15px;
+        li a{
+            color: white;
+            text-decoration: none;
+            font-size: larger;
+            text-shadow: rgba(0, 0, 0, 0.925) 0 0 10px;
+        }
+        li a:hover{
+            text-shadow: variables.$colorC 0 0 10px;
+        }
+    }
+}
